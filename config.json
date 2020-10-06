@@ -23,7 +23,9 @@
     "dist": "docs/"
   },
   "js": {
-    "src": ["src/js/**/*.js"],
+    "src": [
+      "src/js/**/*.js"
+    ],
     "dest": "public/assets/js/",
     "dist": "docs/assets/js/"
   },
@@ -31,11 +33,6 @@
     "src": "src/images/**/*.{gif,jpg,jpeg,JPG,JPEG,png,svg}",
     "dest": "public/assets/images/",
     "dist": "docs/assets/images/"
-  },
-  "sounds": {
-    "src": "src/sounds/**/*.{mp3,wav,mp4,MP3,WAV,MP4}",
-    "dest": "public/assets/sounds/",
-    "dist": "docs/assets/sounds/"
   },
   "watch": {
     "html": "src/**/*.html"
